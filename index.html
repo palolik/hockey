@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/7a479e0f31.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -93,7 +94,7 @@
     </section>
     <section>
 
-      <div class="items-center text-center  m-10">
+      <div class="items-center text-center m-5">
         <div>
           <hr class="h-5">
 
@@ -102,41 +103,37 @@
             adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
           <hr class="h-5">
         </div>
-        <div class="w-full h-80 flex justify-evenly">
-          <div class="card w-60 p-3 bg-base-100 shadow-xl">
+        <div class="w-full h-80 flex justify-evenly max-[600px]:h-auto max-[600px]:flex-col ">
+          <div class="card w-60 p-3 mt-3 bg-base-100 shadow-xl max-[600px]:w-full">
             <div class="card-body items-center text-center">
-              <div class="radial-progress bg-white text-red-600 " style="--value:87;"
-                role="progressbar">87%</div>
+              <div class="radial-progress bg-white text-red-600 " style="--value:87;" role="progressbar">87%</div>
 
               <h2 class="card-title">Prayer Facility</h2>
               <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
 
             </div>
           </div>
-          <div class="card w-60 p-3 bg-base-100 shadow-xl">
+          <div class="card w-60 p-3 mt-3 bg-base-100 shadow-xl max-[600px]:w-full">
             <div class="card-body items-center text-center">
-              <div class="radial-progress bg-white text-green-600 " style="--value:87;"
-              role="progressbar">87%</div>
+              <div class="radial-progress bg-white text-green-600 " style="--value:87;" role="progressbar">87%</div>
 
               <h2 class="card-title">Experienced Coach</h2>
               <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
 
             </div>
           </div>
-          <div class="card w-60 p-3 bg-base-100 shadow-xl">
+          <div class="card w-60 p-3 mt-3 bg-base-100 shadow-xl max-[600px]:w-full">
             <div class="card-body items-center text-center">
-              <div class="radial-progress bg-white text-yellow-600 " style="--value:87;"
-              role="progressbar">87%</div>
+              <div class="radial-progress bg-white text-yellow-600 " style="--value:87;" role="progressbar">87%</div>
 
               <h2 class="card-title">Senior Player</h2>
               <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
 
             </div>
           </div>
-          <div class="card w-60 p-3 bg-base-100 shadow-xl">
+          <div class="card w-60 p-3 mt-3 bg-base-100 shadow-xl max-[600px]:w-full">
             <div class="card-body items-center text-center">
-              <div class="radial-progress bg-white text-blue-600 " style="--value:87;"
-              role="progressbar">87%</div>
+              <div class="radial-progress bg-white text-blue-600 " style="--value:87;" role="progressbar">87%</div>
 
               <h2 class="card-title">Training Ground</h2>
               <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -147,7 +144,7 @@
       </div>
     </section>
     <section>
-      <div class="items-center text-center h-40 m-10">
+      <div class="items-center text-center m-10">
         <hr class="h-5">
 
         <h2 class="text-4xl font-extrabold pt-8 max-[600px]:text-lg max-[600px]:pt-1">Program Sections</h2>
@@ -155,13 +152,52 @@
           adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         <hr class="h-5">
 
-        <div class="w-full ">
+        <div class="w-full flex items-center flex-col">
+          <div class="flex flex-row justify-between mb-5">
+            <div class="card w-2/5 bg-base-100 shadow-xl image-full">
+              <figure><img src="images/2.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Teeneger Program</h2>
+                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et
+                  in.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Register now</button>
+                </div>
+              </div>
+            </div>
 
+            <div class="card w-2/5 bg-base-100 shadow-xl image-full">
+              <figure><img src="images/3.png" alt="Shoes" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Teeneger Program</h2>
+                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et
+                  in.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Register now</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="card w-auto bg-base-100 shadow-xl image-full">
+          <figure><img src="images/4.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Junior Program</h2>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Register now</button>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </section>
     <section>
-      <div class="items-center text-center h-40 m-10">
+      <div class="items-center text-center m-10">
         <hr class="h-5">
 
         <h2 class="text-4xl font-extrabold pt-8 max-[600px]:text-lg max-[600px]:pt-1">Our New Products</h2>
@@ -169,12 +205,40 @@
           adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         <hr class="h-5">
 
-        <div class="w-full ">
+        <div class="flex w-full ">
+          <div class="card w-1/2 card-side bg-base-100 shadow-xl">
+            <figure><img src="images/6.png" alt="Movie" /></figure>
+            <div class="flex flex-col justify-start text-start">
+
+              <p><i class="fa fa-star">5.0</i><i class="fa fa-eye">20</i> <i class="fa fa-heart">200</i></p>
+              <p>New movie is released!</p>
+              <p>Click the button to watch on Jetflix app.</p>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              <div class="flex flex-row ">
+                <p>Price: 500$</p><img src="images/cart.svg">Delivery Fee : Free
+              </div>
+
+            </div>
+          </div>
+          <div class="card w-1/2 card-side bg-base-100 shadow-xl">
+            <figure><img src="images/6.png" alt="Movie" /></figure>
+            <div class="flex flex-col justify-start text-start">
+
+              <p><i class="fa fa-star">5.0</i><i class="fa fa-eye">20</i> <i class="fa fa-heart">200</i></p>
+              <p>New movie is released!</p>
+              <p>Click the button to watch on Jetflix app.</p>
+              <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+              <div class="flex flex-row ">
+                <p>Price: 500$</p><img src="images/cart.svg">Delivery Fee : Free
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section>
-      <div class="items-center text-center h-40 m-10">
+      <div class="items-center text-center m-10">
         <hr class="h-5">
 
         <h2 class="text-4xl font-extrabold pt-8 max-[600px]:text-lg max-[600px]:pt-1">Clients Question</h2>
@@ -183,11 +247,70 @@
         <hr class="h-5">
 
         <div class="w-full ">
+          <div class="flex flex-row">
+            <div><img class="h-full" src="images/11.png"></div>
+            <div class="w-full h-full">
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section>
-      <div class="items-center text-center h-40 m-10">
+      <div class="items-center text-center  m-10">
         <hr class="h-5">
 
         <h2 class="text-4xl font-extrabold pt-8 max-[600px]:text-lg max-[600px]:pt-1">Get In Touch</h2>
@@ -196,12 +319,120 @@
         <hr class="h-5">
 
         <div class="w-full ">
+          <div class="flex flex-row">
+            <div class="w-2/5 border-2 rounded-lg p-8">
+              <div class="flex flex-col justify-start items-start border-2 rounded-lg p-8 mb-3 bg-green-100"><img class="w-16" src="images/p.png">
+                <p>Phone Number :</p>
+                <p>(+62) 123-321-543</p>
+              </div>
+              <div class="flex flex-col justify-start items-start border-2 rounded-lg p-8 mb-3 bg-yellow-100"><img class="w-16" src="images/m.png">
+                <p>Email :</p>
+                <p>hockeys@support.com</p>
+              </div>
+              <div class="flex flex-col justify-start items-start border-2 rounded-lg p-8  mb-3 bg-blue-100"><img class="w-16" src="images/l.png">
+                <p>Location :</p>
+                <p>152/1 Mohakhali Wireless Gate</p>
+              </div>
+            </div>
+            <div div class="w-3/5">
+              <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+              <div class="sm:col-span-3">
+                <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+                <div class="mt-2">
+                  <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+      
+              <div class="sm:col-span-3">
+                <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+                <div class="mt-2">
+                  <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+            </div>
+            <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+              <div class="sm:col-span-3">
+                <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+                <div class="mt-2">
+                  <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+      
+              <div class="sm:col-span-3">
+                <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+                <div class="mt-2">
+                  <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+            </div>
+            <div class="col-span-full">
+              <label for="about" class="block text-sm font-medium leading-6 text-gray-900">About</label>
+              <div class="mt-2">
+                <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+              </div>
+              <p class="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p>
+            </div>
+            <button class="btn btn-primary">Send Massage</button>
+            </div>
+          </div>
+          <div class="flex flex-col items-center h-20 bg-gray-100 p-5 rounded-lg">
+            <p>Social Media</p>
+            <div class="flex flex-row">
+              <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+              <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+              <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+              <svg  class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+            </div>
 
+          </div>
         </div>
       </div>
     </section>
   </main>
-  <footer></footer>
+  <footer class="footer p-10 bg-gray-950 text-white text-base-content">
+    <aside>
+      <p class="text-4xl">Get In Touch</p>
+        <br/>Providing reliable tech since 1992</p>
+      <div class="flex flex-row"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M21.75 6.75V17.25C21.75 17.8467 21.5129 18.419 21.091 18.841C20.669 19.2629 20.0967 19.5 19.5 19.5H4.5C3.90326 19.5 3.33097 19.2629 2.90901 18.841C2.48705 18.419 2.25 17.8467 2.25 17.25V6.75M21.75 6.75C21.75 6.15326 21.5129 5.58097 21.091 5.15901C20.669 4.73705 20.0967 4.5 19.5 4.5H4.5C3.90326 4.5 3.33097 4.73705 2.90901 5.15901C2.48705 5.58097 2.25 6.15326 2.25 6.75M21.75 6.75V6.993C21.75 7.37715 21.6517 7.75491 21.4644 8.0903C21.2771 8.42569 21.0071 8.70754 20.68 8.909L13.18 13.524C12.8252 13.7425 12.4167 13.8582 12 13.8582C11.5833 13.8582 11.1748 13.7425 10.82 13.524L3.32 8.91C2.99292 8.70854 2.72287 8.42669 2.53557 8.0913C2.34827 7.75591 2.24996 7.37815 2.25 6.994V6.75" stroke="#FF4240" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg><p class="px-3">hockeys@support.com</p>
+        </div>
+        <div class="flex flex-row"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M2.25 6.75C2.25 15.034 8.966 21.75 17.25 21.75H19.5C20.0967 21.75 20.669 21.5129 21.091 21.091C21.5129 20.669 21.75 20.0967 21.75 19.5V18.128C21.75 17.612 21.399 17.162 20.898 17.037L16.475 15.931C16.035 15.821 15.573 15.986 15.302 16.348L14.332 17.641C14.05 18.017 13.563 18.183 13.122 18.021C11.4849 17.4191 9.99815 16.4686 8.76478 15.2352C7.53141 14.0018 6.58087 12.5151 5.979 10.878C5.817 10.437 5.983 9.95 6.359 9.668L7.652 8.698C8.015 8.427 8.179 7.964 8.069 7.525L6.963 3.102C6.90214 2.85869 6.76172 2.6427 6.56405 2.48834C6.36638 2.33397 6.1228 2.25008 5.872 2.25H4.5C3.90326 2.25 3.33097 2.48705 2.90901 2.90901C2.48705 3.33097 2.25 3.90326 2.25 4.5V6.75Z" stroke="#FF4240" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="px-3">(+62) 123-321-543</p>
+          </div>
+    </aside> 
+    <nav>
+     
+
+
+
+
+      <header class="footer-title">Company</header> 
+      <a class="link link-hover"> About us</a>
+      <a class="link link-hover">Leadership</a>
+      <a class="link link-hover">Careers</a>
+      <a class="link link-hover">News & Article</a>
+      <a class="link link-hover">Legal Notice</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Support</header> 
+      <a class="link link-hover">Help Center</a>
+      <a class="link link-hover">FAQ</a>
+      <a class="link link-hover">Ticket Support</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav> 
+    <nav>
+      <header class="footer-title">Services</header> 
+      <a class="link link-hover">Academy</a>
+      <a class="link link-hover">Group Lesson</a>
+      <a class="link link-hover">Private Lesson</a>
+      <a class="link link-hover">Hockeys for kids</a>
+      <a class="link link-hover">Hockeys for Adult</a>
+
+    </nav>
+  </footer>
 </body>
 
-</html>
+</html
